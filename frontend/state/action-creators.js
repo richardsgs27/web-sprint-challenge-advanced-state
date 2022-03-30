@@ -80,7 +80,7 @@ export function postQuiz({
       })
       .then((res) => {
         dispatch(
-          setMessage(`🥳 🥳 CONGRATULATIONS!!: "${res.data.question}" is an amazing question! 🎉 🎉 `)
+          setMessage(`🥳 🥳 Congrats: "${res.data.question}" is a great question! 🎉 🎉 `)
         );
         dispatch(resetForm());
       })
